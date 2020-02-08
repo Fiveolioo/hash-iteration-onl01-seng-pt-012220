@@ -8,5 +8,9 @@ Learn more or give us feedback
 # }
 
 def select_winner(passengers)
-
+  winner = ""
+  passengers.each dp |suite, name|
+  if suite == :suite_a && name.start_with? ("A")
+    winnder = name
+  end
 end
